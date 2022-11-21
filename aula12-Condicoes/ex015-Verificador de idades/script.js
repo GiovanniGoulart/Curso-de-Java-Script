@@ -15,10 +15,10 @@
 
         if(fsex[0].checked) {
             gênero = 'Homem'
-            if (idade >=0 && idade <10) {
+            if (idade >=0 && idade <16) {
                 //criança
-                img.setAttribute('src', 'infatilM.jpg')
-                }else if (idade < 21){
+                img.setAttribute('src', 'infantilM.jpg')
+                }else if (idade < 30){
                     //jovem
                     img.setAttribute('src', 'jovemM.jpg')
                 } else if (idade < 60){
@@ -31,9 +31,9 @@
 
         } else if (fsex[1].checked) {
             gênero = 'Mulher'
-            if (idade >=0 && idade <10) {
+            if (idade >=0 && idade <16) {
                 img.setAttribute('src', 'infantilF.jpg')
-                }else if (idade < 21){
+                }else if (idade < 30){
                     img.setAttribute('src', 'jovemF.jpg')
                 } else if (idade < 60){
                     img.setAttribute('src', 'adultoF.jpg')
